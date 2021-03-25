@@ -1,5 +1,5 @@
 <Project>
-  <Import Project="build\Version.props" />
+  <Import Project="Build\Version.props" />
   <PropertyGroup>
     <PackageOutputPath>$(MSBuildThisFileDirectory)bin\$(Configuration)</PackageOutputPath>
     <Authors>Eternity714</Authors>
