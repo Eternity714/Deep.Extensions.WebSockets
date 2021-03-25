@@ -1,2 +1,2 @@
-# Microsoft.Extensions.WebSockets
+# Deep.Extensions.WebSockets
 IClientWebSocketFactory, just like IHttpClientFactory
