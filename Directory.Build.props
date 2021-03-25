@@ -2,6 +2,7 @@
   <Import Project="build\Version.props" />
   <PropertyGroup>
     <PackageOutputPath>$(MSBuildThisFileDirectory)bin\$(Configuration)</PackageOutputPath>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
     <Authors>Eternity714</Authors>
     <Company>Eternity714</Company>
     <LangVersion>latest</LangVersion>
