@@ -33,7 +33,7 @@ jobs:
     - name: Test
       run: dotnet test --no-build --verbosity normal
     - name: Ls
-      run: ls -al ./src/bin/Release/netstandard2.0/
+      run: cat ./src/bin/Release/netstandard2.0/Deep.Extensions.WebSockets.deps.json
 
 
     # - name: Install Nuget
