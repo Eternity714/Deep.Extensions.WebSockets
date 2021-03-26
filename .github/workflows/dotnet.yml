@@ -21,7 +21,7 @@ jobs:
     - name: Set tag to version
       run: |
         ls -al ./
-        dotnet TagToVersion -t ${{ github.ref }} -f src/build/Version.props
+        dotnet TagToVersion -t ${{ github.ref }} -f ./src/build/Version.props
     - name: Check version
       run: cat src/build/Version.props
     - name: Restore dependencies
