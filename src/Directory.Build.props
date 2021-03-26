@@ -1,0 +1,18 @@
+<Project>
+  <Import Project="build\Version.props" />
+  <PropertyGroup>
+    <PackageOutputPath>$(MSBuildThisFileDirectory)bin\$(Configuration)</PackageOutputPath>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <Authors>Eternity714</Authors>
+    <Company>Eternity714</Company>
+    <LangVersion>latest</LangVersion>
+    <PackageRequireLicenseAcceptance>true</PackageRequireLicenseAcceptance>
+    <Description>描述信息</Description>
+    <Copyright>Copyright (c) 2021 Eternity714</Copyright>
+    <PackageProjectUrl>https://github.com/Eternity714/Deep.Extensions.WebSockets</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/Eternity714/Deep.Extensions.WebSockets.git</RepositoryUrl>
+    <RepositoryType>git</RepositoryType>
+    <PackageTags>source;dotnet;nuget;msbuild</PackageTags>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+  </PropertyGroup>
+</Project>
