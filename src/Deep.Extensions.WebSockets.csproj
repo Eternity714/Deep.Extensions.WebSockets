@@ -2,16 +2,6 @@
   <PropertyGroup>
     <TargetFramework>netstandard2.0</TargetFramework>
     <RootNamespace>System.Net.WebSockets</RootNamespace>
-	  <LangVersion>8.0</LangVersion>
-	  <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
-	  <Version>6.0.0-preview.2.21154.6</Version>
-	  <Authors>Eternity714</Authors>
-	  <Company />
-	  <RepositoryUrl>https://github.com/Eternity714/Deep.Extensions.WebSockets.git</RepositoryUrl>
-	  <RepositoryType>git</RepositoryType>
-	  <PackageProjectUrl>https://github.com/Eternity714/Deep.Extensions.WebSockets</PackageProjectUrl>
-	  <PackageRequireLicenseAcceptance>true</PackageRequireLicenseAcceptance>
-	  <PackageLicenseFile></PackageLicenseFile>
   </PropertyGroup>
 
   <ItemGroup>
