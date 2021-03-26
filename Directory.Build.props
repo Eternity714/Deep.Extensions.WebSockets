@@ -1,5 +1,5 @@
 <Project>
-  <Import Project="build\Version.props" />
+  <Import Project="version.props" />
   <PropertyGroup>
     <PackageOutputPath>$(MSBuildThisFileDirectory)bin\$(Configuration)</PackageOutputPath>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
